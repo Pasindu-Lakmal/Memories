@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { applyMiddleware, compose, createStore } from "redux";
 import thunk from "redux-thunk";
 import reducers from "./reducers";
-
+import "./index.css";
 //using configureStrore because react recommded use this withouth using createStore
 const store = createStore(reducers, compose(applyMiddleware(thunk)));
 
