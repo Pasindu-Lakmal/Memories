@@ -1,5 +1,5 @@
 {
-  "name": "memories",
+  "name": "mern-stack-client",
   "version": "0.1.0",
   "private": true,
   "proxy": "https://memories-project-part4.herokuapp.com/",

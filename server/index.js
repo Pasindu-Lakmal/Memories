@@ -15,7 +15,10 @@ app.use(cors());
 // https://www.mongodb.com/cloud/atlas
 
 const CONNECTION_URL =
-  "mongodb+srv://memorise:1594149pAS@cluster0.gma5t5a.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://memories:1594149pAS@cluster0.eblmegq.mongodb.net/?retryWrites=true&w=majority";
+
+// const CONNECTION_URL =
+//   "mongodb://memorise:1594149pAS@ac-92xe0ef-shard-00-00.gma5t5a.mongodb.net:27017,ac-92xe0ef-shard-00-01.gma5t5a.mongodb.net:27017,ac-92xe0ef-shard-00-02.gma5t5a.mongodb.net:27017/?ssl=true&replicaSet=atlas-io5daw-shard-0&authSource=admin&retryWrites=true&w=majority";
 
 const PORT = process.env.PORT || 5000;
 
